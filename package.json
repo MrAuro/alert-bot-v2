@@ -1,0 +1,11 @@
+{
+  "name": "alert-bot-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Auro <35087590+MrAuro@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dank-twitch-irc": "^4.3.0",
+    "dotenv": "^10.0.0"
+  }
+}

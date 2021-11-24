@@ -10,6 +10,10 @@ let recent2Messages = [];
 let latestPajas = null;
 let talkedRecently = new Set();
 
+client.on('ready', () => {
+	console.log('Ready!');
+});
+
 client.on('PRIVMSG', (message) => {
 	console.log(message.messageText);
 	console.log(recent2Messages);

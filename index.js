@@ -64,7 +64,7 @@ client.on('PRIVMSG', (message) => {
 	}
 });
 
-client.join('auror6s');
+client.join('pajlada');
 client.connect();
 
 function humanizeTime(seconds) {

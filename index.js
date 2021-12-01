@@ -38,7 +38,7 @@ client.on('PRIVMSG', (message) => {
 		}
 	}
 
-	if (message.messageText === 'pajaS ?') {
+	if (message.messageText === 'pajaS ?' || message.messageText === 'PAJAS ?') {
 		if (talkedRecently.has(message.senderUserID)) return;
 
 		let nextPaja = latestPajas + 2 * 60 * 60 * 1000;
